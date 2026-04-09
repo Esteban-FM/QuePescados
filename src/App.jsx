@@ -11,7 +11,6 @@ import RecetasSection from './components/sections/RecetasSection'
 import Division from './components/ui/Divisor'
 import DivisionNosotros from './components/ui/DivisorNosotros'
 import RecetaPage from './pages/RecetaPage'
-import ChatWidget from './components/ui/ChatWidget'
 import { Helmet } from 'react-helmet-async'
 import logoIcon from './assets/icons/Logo_icon.svg'
 
@@ -36,7 +35,7 @@ function Home() {
       <LogoSection />
       <Division/>
       <Footer />
-      <ChatWidget />
+     
     </>
   )
 }
