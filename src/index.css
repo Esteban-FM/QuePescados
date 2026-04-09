@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+.hide-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.hex_fffbf2 {
+  background-color: hsl(216, 73%, 51%);
+  color: hsl(216, 73%, 51%);
+}
+
+.hex_56a898{
+
+  color: hsl(168, 49%, 66%);
+}
+.porciones{
+  background-color: #1c4a9e;
+}
