@@ -13,6 +13,7 @@ import DivisionNosotros from './components/ui/DivisorNosotros'
 import RecetaPage from './pages/RecetaPage'
 import { Helmet } from 'react-helmet-async'
 import logoIcon from './assets/icons/Logo_icon.svg'
+import Chatbot from  './components/ui/Chatwidget'
 
 function Home() {
   return (
@@ -35,6 +36,8 @@ function Home() {
       <LogoSection />
       <Division/>
       <Footer />
+      <Chatbot />
+
      
     </>
   )

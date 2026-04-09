@@ -45,17 +45,17 @@ export default function ChatWidget() {
           let chatbox = document.getElementById('chatbot-container')
           chatbox.style.display = chatbox.style.display === 'none' ? 'block' : 'none'
         }
-        document.body.appendChild(chatButton)
+        // document.body.appendChild(chatButton)
       }
 
       // Contenedor del chatbot
-      if (!document.getElementById('chatbot-container')) {
-        let chatContainer = document.createElement('div')
-        chatContainer.id = 'chatbot-container'
-        chatContainer.innerHTML =
-          '<iframe src="https://landbot.online/v3/H-2856090-BKKA2H7IU7JTDBXT/index.html" width="100%" height="100%"></iframe>'
-        document.body.appendChild(chatContainer)
-      }
+      // if (!document.getElementById('chatbot-container')) {
+      //   let chatContainer = document.createElement('div')
+      //   chatContainer.id = 'chatbot-container'
+      //   chatContainer.innerHTML =
+      //     '<iframe src="https://landbot.online/v3/H-2856090-BKKA2H7IU7JTDBXT/index.html" width="100%" height="100%"></iframe>'
+      //   document.body.appendChild(chatContainer)
+      // }
     }
 
     const x = document.getElementsByTagName('script')[0]
